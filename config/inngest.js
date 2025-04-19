@@ -1,6 +1,6 @@
 
 import { Inngest } from "inngest";
-import { connectDB } from "./db";
+import connectDB  from "./db";
 import User from "../models/User";
 
 import { connect } from "mongoose";
